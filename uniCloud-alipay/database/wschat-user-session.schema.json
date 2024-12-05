@@ -1,0 +1,33 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"userId": {
+			"description": "用户ID",
+			"bsonType": "string"
+		},
+		"sessionId": {
+			"bsonType": "string",
+			"description": "会话ID"
+		},
+		"unread": {
+			"bsonType": "int",
+			"description": "未读消息数",
+			"default": 0
+		},
+		"createdAt": {
+			"bsonType": "date",
+			"description": "创建时间"
+		}
+	}
+}

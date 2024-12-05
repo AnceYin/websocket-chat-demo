@@ -1,0 +1,7 @@
+{
+  "name": "ws-chat",
+  "dependencies": {
+    "ws-chat-common": "file:../common/ws-chat-common"
+  },
+  "extensions": {}
+}

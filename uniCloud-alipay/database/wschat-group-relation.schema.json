@@ -1,0 +1,33 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"userId": {
+			"bsonType": "string",
+			"description": "用户ID"
+		},
+		"isCreator": {
+			"bsonType": "bool",
+			"description": "是否是创建者",
+			"default": false
+		},
+		"sessionId": {
+			"bsonType": "string",
+			"description": "会话ID"
+		},
+		"joinAt": {
+			"bsonType": "string",
+			"description": "加入时间"
+		}
+	}
+}

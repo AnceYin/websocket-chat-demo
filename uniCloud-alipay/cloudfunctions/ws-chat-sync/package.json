@@ -1,0 +1,9 @@
+{
+  "name": "ws-chat-sync",
+  "dependencies": {
+    "ws-chat-common": "file:../common/ws-chat-common"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
